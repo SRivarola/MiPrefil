@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Santiago Rivarola</title>
+</head>
+<body>
+  <header id="scrollTop">
+    <nav class="menu">
+      <div class="barra-menu">
+        <a class="btnTop" href="#">Santiago Rivarola</a>
+        <div class="btnLinks">
+          <ul class="lista">
+            <li class="item">
+              <a class="sobreMi" href="#scrollSobreMi">Sobre mí</a>
+            </li>
+            <li class="item">
+              <a class="port" href="#scrollPortfolio">Portfolio</a>
+            </li>
+            <li class="item">
+              <a class="contact" href="#scrollContacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <button class="switch" id="switch">
+          <span class="iconify sol" data-icon="fa-solid:sun"></span>
+          <span class="iconify luna" data-icon="bx:bxs-moon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="principal">
+      <h1 class="textoPrincipal animate__animated animate__bounceInLeft">
+        <p>¡Hola!</p>
+        <p>Soy <span>Santiago,</span></p>
+        <p>Jr. Frontend Dev</p>
+      </h1>
+      <div class="redesMain animate__animated animate__bounceInLeft">
+        <a href="https://www.linkedin.com/in/santiago-rivarola-b6b500219/" target="LinkedIn"><span class="iconify iconSobreMi" data-icon="entypo-social:linkedin-with-circle" data-width="50"></span></a>
+        <a class="iconGit" href="https://github.com/SRivarola" target="GitHub"><span class="iconify iconSobreMi" data-icon="bytesize:github"  data-width="50"></span></a>
+      </div>
+    </div>
+    <div class="fotoMain animate__animated animate__bounceInRight">
+      <img src="./assets/perfil.png" alt="">
+    </div>
+  </main>
+  
+  <section id="scrollSobreMi">
+    <div class="espacioVacio"></div>
+    <div class="sobreMi">
+      <h2>Un poco sobre mí</h2>
+      <div class="divisor"><hr></div>
+      <div class="gridSobreMi">
+        <div>
+          <p class="fotoSobreMi">
+            <img src="./assets/perfil2.png" alt="">
+          </p>
+        </div>
+        <div>
+          <h3>Me dicen Santi,</h3>
+          <p>
+            Soy una persona <span class="turquesa">organizada,</span> con una gran <span class="turquesa">motivación</span> y apasionada por el <span class="negrita">diseño</span> y la <span class="negrita">tecnología</span>. Emprendo cada desafío con ánimo y ganas de aprender, tomo cada obstáculo como una oportunidad de mejora. Me gusta <span class="turquesa">trabajar en equipo</span> y alcanzar metas en común. 
+          </p>
+          <p>
+            Siempre tuve curiosidad por la tecnología. Actualmente me encuentro trabajando como <span class="turquesa">creador de contenido digital</span> para una organizacion de trabajadores y estudiando <span class="negrita">desarrollo frontend</span>, donde me encuentro adquiriendo nuevas herramientas dentro de la programación y con muchas ganas de seguir aprendiendo. Mi propósito es desarrollar mi carrera profesional en una empresa donde pueda aplicar mis conocimientos e incrementar mi experiencia en el rubro.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="scrollPortfolio">
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="divisor"><hr></div>
+      <section class="contenido">
+      
+      </section>
+    </div>
+  </section>
+
+  <section id="scrollContacto">
+    <div class="contacto">
+      <h2>Contacto</h2>
+      <div class="divisor"><hr></div>
+      <div class="redesContacto">
+        <a href="https://www.linkedin.com/in/santiago-rivarola-b6b500219/" target="LinkedIn"><span class="iconify iconSobreMi" data-icon="entypo-social:linkedin-with-circle" data-width="50"></span></a>
+        <a class="iconGit" href="https://github.com/SRivarola" target="GitHub"><span class="iconify iconSobreMi" data-icon="bytesize:github"  data-width="50"></span></a>
+      </div>
+      <div class="mailContacto">
+        <p class="mail">
+          <span class="iconify sobre" data-icon="fluent:mail-20-regular" style="color: black;" data-width="50"></span>
+          <input class="textoMail" type="text" value="srivarola@gmail.com">
+          <button class="btnCopiar">
+            <span class="iconify copiar" data-icon="akar-icons:copy" data-width="20"></span>
+          </button>
+          <span class="validacion" style="display: none;"></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+  <script src='./js/main.js'></script>
+</body>
+</html>

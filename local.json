@@ -1,0 +1,38 @@
+[
+    {
+        "id": "00",
+        "name": "ETANA Buenos Aires",
+        "imgLogo": "./assets/etana_logo1.png",
+        "imgPortada": "./assets/etana.gif",
+        "color": "#000",
+        "desc": "Proyecto para una marca de botas. Realizado en ReactJs, conectado a una base de datos en firebase. Cuenta con una sección LogIn para administradores, para que el sitio sea auto-administrable de manera fácil y segura.",
+        "site": "https://etanabaires.com"
+    },
+    {
+        "id": "01",
+        "name": "SERRANO 360°",
+        "imgLogo": "./assets/serrano360_logo.png",
+        "imgPortada": "./assets/serrano360.jpg",
+        "color": "#D27F67",
+        "desc": "Proyecto realizado en para un estudio de fotografia de productos en 360°. Realizado con React JS.",
+        "site": "https://serrano360.netlify.app"
+    },
+    {
+        "id": "02",
+        "name": "Ivoré Indumentaria",
+        "imgLogo": "./assets/ivore_logo.png",
+        "imgPortada": "./assets/ivore.jpg",
+        "color": "#6E845F",
+        "desc": "Proyecto realizado en equipo para una marca de indumentaria. Realizado con HTML, CSS y un poco de JS.",
+        "site": "https://srivarola.github.io/Ivore-Indumentaria/"
+    },
+    {
+        "id": "03",
+        "name": "Tripulantes LATAM en lucha",
+        "imgLogo": "./assets/tcp_logo.png",
+        "imgPortada": "./assets/tcpenlucha1.jpg",
+        "color": "#1A027D",
+        "desc": "Trabajo realizado para un grupo de ex-empleados de LATAM Argentina, utilizando Bootstrap y modificando sus estilos en css a traves de scss.",
+        "site": "http://www.tcpenlucha.com.ar/"
+    }
+]
