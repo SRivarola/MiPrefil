@@ -233,7 +233,7 @@ section .sobreMi {
     body.dark section .sobreMi h2 {
       color: #ffffff; }
   section .sobreMi .divisor {
-    width: 10%;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.5s ease all; }
@@ -287,7 +287,7 @@ section .sobreMi {
       body.dark #scrollPortfolio .portfolio h2 {
         color: #ffffff; }
     #scrollPortfolio .portfolio .divisor {
-      width: 10%;
+      width: 100px;
       margin-left: auto;
       margin-right: auto;
       transition: 0.5s ease all; }
@@ -419,7 +419,7 @@ section .sobreMi {
       body.dark #scrollContacto .contacto h2 {
         color: #ffffff; }
     #scrollContacto .contacto .divisor {
-      width: 10%;
+      width: 100px;
       margin-left: auto;
       margin-right: auto;
       transition: 0.5s ease all; }
@@ -444,36 +444,41 @@ section .sobreMi {
       text-align: center;
       margin-top: 70px;
       margin-bottom: 50px; }
-      #scrollContacto .contacto .mailContacto .mail .sobre {
-        transition: 0.5s ease all; }
-        body.dark #scrollContacto .contacto .mailContacto .mail .sobre {
-          color: #ffffff !important; }
-      #scrollContacto .contacto .mailContacto .mail .textoMail {
-        border: none;
-        font-size: 19px;
-        font-weight: bold;
-        transition: 0.5s ease all;
-        background-color: transparent; }
-        #scrollContacto .contacto .mailContacto .mail .textoMail:focus {
-          outline: none; }
-        #scrollContacto .contacto .mailContacto .mail .textoMail::-moz-selection {
-          background-color: transparent; }
-        #scrollContacto .contacto .mailContacto .mail .textoMail::selection {
-          background-color: transparent; }
-        body.dark #scrollContacto .contacto .mailContacto .mail .textoMail {
-          color: #ffffff; }
-      #scrollContacto .contacto .mailContacto .mail .btnCopiar {
-        border: none;
-        background-color: transparent;
-        cursor: pointer; }
-        #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar {
-          margin-left: 10px; }
-          #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar:hover {
-            color: #0c88ee !important; }
-          body.dark #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar {
+      #scrollContacto .contacto .mailContacto .mail {
+        height: 50px;
+        display: flex;
+        flex-direction: row; }
+        #scrollContacto .contacto .mailContacto .mail .sobre {
+          transition: 0.5s ease all; }
+          body.dark #scrollContacto .contacto .mailContacto .mail .sobre {
             color: #ffffff !important; }
-      #scrollContacto .contacto .mailContacto .mail .validacion {
-        margin-top: 12px;
-        margin-left: 5px;
-        position: absolute;
-        color: #0c88ee; }
+        #scrollContacto .contacto .mailContacto .mail .textoMail {
+          border: none;
+          font-size: 19px;
+          font-weight: bold;
+          transition: 0.5s ease all;
+          background-color: transparent;
+          text-align: center; }
+          #scrollContacto .contacto .mailContacto .mail .textoMail:focus {
+            outline: none; }
+          #scrollContacto .contacto .mailContacto .mail .textoMail::-moz-selection {
+            background-color: transparent; }
+          #scrollContacto .contacto .mailContacto .mail .textoMail::selection {
+            background-color: transparent; }
+          body.dark #scrollContacto .contacto .mailContacto .mail .textoMail {
+            color: #ffffff; }
+        #scrollContacto .contacto .mailContacto .mail .btnCopiar {
+          border: none;
+          background-color: transparent;
+          cursor: pointer; }
+          #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar {
+            margin-left: 10px; }
+            #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar:hover {
+              color: #0c88ee !important; }
+            body.dark #scrollContacto .contacto .mailContacto .mail .btnCopiar .copiar {
+              color: #ffffff !important; }
+        #scrollContacto .contacto .mailContacto .mail .validacion {
+          margin-top: 12px;
+          margin-left: 350px;
+          position: absolute;
+          color: #0c88ee; }
